@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.0.0",
+    "langgraph>=1.0.4",
+    "markdown>=3.10",
+    "nest-asyncio>=1.6.0",
+    "py-zerox>=0.0.7",
+    "pypdf>=6.4.1",
+    "python-dotenv>=1.2.1",
+    "unstructured>=0.18.21",
+]
